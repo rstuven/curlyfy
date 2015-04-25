@@ -3,7 +3,7 @@ curlyfy
 
 **curlyfy** adds curly brackets to a whitespace indented string like this:
 
-```
+``` javascript
 /* input */
 a
     b
@@ -13,7 +13,7 @@ a
     f
 ```
 
-```
+``` javascript
 /* output */
 a {
     b {
@@ -28,7 +28,7 @@ a {
 
 It handles some special cases too:
 
-```
+``` javascript
 /* input and output, no curly brackets added */
 
 // trailing opening curly bracket
@@ -58,11 +58,11 @@ fn(a,
 Usage
 -----
 
-```
+``` shell
 npm install --save curlyfy
 ```
 
-```
+``` javascript
 var curlyfy = require('curlyfy');
 var output = curlyfy(input [, options]);
 ```
@@ -81,11 +81,11 @@ you will probably ditch semicolons too ;)
 
 For example:
 
-```
+``` javascript
 var output = curlyfy(input, {insertSemicolons: true})
 ```
 
-```
+``` javascript
 /* input */
 ++i
 --i
@@ -93,7 +93,7 @@ var output = curlyfy(input, {insertSemicolons: true})
 [a, b, c].forEach(doSomething)
 ```
 
-```
+``` javascript
 /* output */
 ;++i
 ;--i
