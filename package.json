@@ -1,0 +1,21 @@
+{
+  "name": "curlyfy",
+  "description": "Adds curly brackets to a whitespace indented string.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ricardo Stuven",
+    "email": "rstuven@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rstuven/curlyfy.git"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha --ui tdd"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
