@@ -6,5 +6,5 @@ node_js:
   - "iojs"
 
 script:
-  - npm test
-  - npm test-coveralls
+  - npm run test
+  - npm run test-coveralls
