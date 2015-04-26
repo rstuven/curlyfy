@@ -1,6 +1,10 @@
 curlyfy
 =======
 
+[![Build Status](https://travis-ci.org/rstuven/curlyfy.svg)](https://travis-ci.org/rstuven/curlyfy)
+[![dependencies Status](https://david-dm.org/rstuven/curlyfy.svg)](https://david-dm.org/rstuven/curlyfy#info=dependencies)
+[![devDependencies Status](https://david-dm.org/rstuven/curlyfy/dev-status.svg)](https://david-dm.org/rstuven/curlyfy#info=devDependencies)
+
 **curlyfy** adds curly brackets to a whitespace indented string like this:
 
 ``` javascript
