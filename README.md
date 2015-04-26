@@ -105,5 +105,6 @@ TO-DO:
 ------
 
 - Handle trailing comments
+- Handle multiline comments
 - Normalize indentations
 - Make special cases optional
