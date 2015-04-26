@@ -4,3 +4,7 @@ node_js:
   - "0.11"
   - "0.10"
   - "iojs"
+
+script:
+  - npm test
+  - npm test-coveralls

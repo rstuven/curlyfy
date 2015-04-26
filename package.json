@@ -13,9 +13,22 @@
   },
   "main": "lib/main.js",
   "scripts": {
-    "test": "mocha --ui tdd"
+    "test"             : "mocha -u tdd",
+    "test-cov"         : "mocha -u tdd -r blanket -R html-cov > coverage.html",
+    "test-cov-text"    : "mocha -u tdd -r blanket -R mocha-text-cov",
+    "test-coveralls"   : "mocha -u tdd -r blanket -R mocha-lcov-reporter | coveralls"
   },
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "blanket": "git://github.com/alex-seville/blanket.git",
+    "coveralls": "^2.11.2",
+    "mocha": "^2.2.4",
+    "mocha-lcov-reporter": "0.0.2",
+    "mocha-text-cov": "^0.1.0"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "lib",
+      "data-cover-never": "node_modules"
+    }
   }
 }

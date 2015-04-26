@@ -2,6 +2,7 @@ curlyfy
 =======
 
 [![Build Status](https://travis-ci.org/rstuven/curlyfy.svg)](https://travis-ci.org/rstuven/curlyfy)
+[![Coverage Status](https://coveralls.io/repos/rstuven/curlyfy/badge.svg)](https://coveralls.io/r/rstuven/curlyfy)
 [![dependencies Status](https://david-dm.org/rstuven/curlyfy.svg)](https://david-dm.org/rstuven/curlyfy#info=dependencies)
 [![devDependencies Status](https://david-dm.org/rstuven/curlyfy/dev-status.svg)](https://david-dm.org/rstuven/curlyfy#info=devDependencies)
 
