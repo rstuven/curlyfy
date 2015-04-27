@@ -1,7 +1,7 @@
 {
   "name": "curlyfy",
   "description": "Adds curly brackets to a whitespace indented string.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Ricardo Stuven",
     "email": "rstuven@gmail.com"
@@ -13,10 +13,10 @@
   },
   "main": "lib/main.js",
   "scripts": {
-    "test"             : "mocha -u tdd",
-    "test-cov"         : "mocha -u tdd -r blanket -R html-cov > coverage.html",
-    "test-cov-text"    : "mocha -u tdd -r blanket -R mocha-text-cov",
-    "test-coveralls"   : "mocha -u tdd -r blanket -R mocha-lcov-reporter | coveralls || true"
+    "test": "mocha -u tdd",
+    "test-cov": "mocha -u tdd -r blanket -R html-cov > coverage.html",
+    "test-cov-text": "mocha -u tdd -r blanket -R mocha-text-cov",
+    "test-coveralls": "mocha -u tdd -r blanket -R mocha-lcov-reporter | coveralls || true"
   },
   "devDependencies": {
     "blanket": "git://github.com/alex-seville/blanket.git",
