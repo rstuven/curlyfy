@@ -31,7 +31,7 @@ a {
 }
 ```
 
-It handles some special cases too:
+It also handles some exceptions:
 
 ``` javascript
 /* input and output, no curly brackets added */
@@ -75,7 +75,11 @@ var output = curlyfy(input [, options]);
 Options
 -------
 
-**insertSemicolons**: *(default: false)*
+**blockOpeningException** (*default:* ``'[{\\[\\(,]'``):
+
+If this regular expression is found at the end of a block opening line, curly brackets are not added to that block.
+
+**insertSemicolons** (*default:* `false`):
 
 Support
 [JavaScript semicolon-less style]
@@ -112,4 +116,3 @@ TO-DO:
 - Handle trailing comments
 - Handle multiline comments
 - Normalize indentations
-- Make special cases optional
