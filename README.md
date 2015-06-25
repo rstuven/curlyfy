@@ -60,8 +60,8 @@ fn(a,
 
 ```
 
-Usage
------
+Library usage
+-------------
 
 ``` shell
 npm install --save curlyfy
@@ -70,6 +70,24 @@ npm install --save curlyfy
 ``` javascript
 var curlyfy = require('curlyfy');
 var output = curlyfy(input [, options]);
+```
+
+CLI usage
+---------
+
+``` shell
+npm install --global curlyfy
+curlyfy --help
+```
+
+File input as argument:
+``` shell
+curlyfy file [options]
+```
+
+Standard input:
+``` shell
+cat file | curlyfy [options]
 ```
 
 Options

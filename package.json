@@ -12,6 +12,9 @@
     "url": "https://github.com/rstuven/curlyfy.git"
   },
   "main": "lib/main.js",
+  "bin": {
+    "curlyfy": "./bin/curlyfy"
+  },
   "scripts": {
     "test": "mocha -u tdd",
     "test-cov": "mocha -u tdd -r blanket -R html-cov > coverage.html",
@@ -30,5 +33,8 @@
       "pattern": "lib",
       "data-cover-never": "node_modules"
     }
+  },
+  "dependencies": {
+    "commander": "^2.8.1"
   }
 }
