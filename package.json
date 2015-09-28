@@ -23,10 +23,10 @@
   },
   "devDependencies": {
     "blanket": "git://github.com/alex-seville/blanket.git",
-    "coveralls": "^2.11.2",
-    "mocha": "^2.2.4",
+    "coveralls": "2.11.4",
+    "mocha": "2.3.3",
     "mocha-lcov-reporter": "0.0.2",
-    "mocha-text-cov": "^0.1.0"
+    "mocha-text-cov": "0.1.0"
   },
   "config": {
     "blanket": {
@@ -35,6 +35,6 @@
     }
   },
   "dependencies": {
-    "commander": "^2.8.1"
+    "commander": "2.8.1"
   }
 }
