@@ -22,7 +22,7 @@
     "test-coveralls": "mocha -u tdd -r blanket -R mocha-lcov-reporter | coveralls || true"
   },
   "devDependencies": {
-    "blanket": "git://github.com/alex-seville/blanket.git",
+    "blanket": "1.1.7",
     "coveralls": "2.11.4",
     "mocha": "2.3.3",
     "mocha-lcov-reporter": "0.0.2",
