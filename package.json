@@ -35,6 +35,6 @@
     }
   },
   "dependencies": {
-    "commander": "2.8.1"
+    "commander": "2.9.0"
   }
 }
