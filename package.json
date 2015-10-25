@@ -22,7 +22,7 @@
     "test-coveralls": "mocha -u tdd -r blanket -R mocha-lcov-reporter | coveralls || true"
   },
   "devDependencies": {
-    "blanket": "1.1.7",
+    "blanket": "1.1.8",
     "coveralls": "2.11.4",
     "mocha": "2.3.3",
     "mocha-lcov-reporter": "1.0.0",
